@@ -33,7 +33,10 @@ vF=F*uBC;                                                       % Force Vector i
 
 Moment=cross(vOB,vF);                                           % Moment equation
 
+Mx=Moment(:,1);
+My=Moment(:,2);
+Mz=Moment(:,3);
 disp('Moment = ')
-disp(moment);
+disp([Mx My Mz])
 
 
