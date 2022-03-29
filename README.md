@@ -1,6 +1,6 @@
 # Moment-Project
 
-Authors: Pesach Nestlebaum, Eric Winton, Matt Thompson
+Authors: Pesach Nestlebaum, Eric Winton, Matt Thompson, and Tony Gonzalez
 
 Description: This code takes a force given by user input and applies it to a particular static system. The code determines position and unit vector and makes appropriate
 calculations to solve for the moment forces about a specific point.
