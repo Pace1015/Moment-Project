@@ -26,4 +26,4 @@ vF = F * UvBC;                %Calculating the Force vector at point B by multip
 MomentO = cross(vOB,vF);      %Calculating the Moment of force F at point O
 
 %Display Solution
-fprintf('Moment about point O caused by the force F  = \n x = %d (ft-lbs)\n y = %d (ft-lbs)\n z = %d (ft-lbs)\n',MomentO(:,1), MomentO(:,2), MomentO(:,3));
+fprintf('Moment about point O caused by the force F  = \n x = %d i (ft-lbs)\n y = %d j (ft-lbs)\n z = %d k (ft-lbs)\n',MomentO(:,1), MomentO(:,2), MomentO(:,3));
