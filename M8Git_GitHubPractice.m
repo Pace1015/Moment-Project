@@ -10,7 +10,7 @@ clc;                          %Clear workspace
 clearvars;                    %Clear all variables
 
 %Define variables and vectors
-F = 120;                      %Value of force F in the direction C starting at B (lbs)
+F = input('Force Input (ft-lb): ');                      %Value of force F in the direction C starting at B (lbs) UPDATED-Pesach Nestlebaum (Allows for user input of force)
 
 pO = [0 0 0];                 %Cartesian coordinates of point O (ft)
 pA = [1 4 0];                 %Cartesian coordinates of point A (ft) (not technically needed in this calculation)
